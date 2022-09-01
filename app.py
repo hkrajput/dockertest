@@ -1,6 +1,6 @@
 import time
 
-import redis
+#import redis
 from flask import Flask
 
 app = Flask(__name__)
@@ -15,7 +15,7 @@ def get_hit_count():
             #return 10
         #except redis.exceptions.ConnectionError as exc:
          #   if retries == 0:
-                raise exc
+          #      raise exc
           #  retries -= 1
            # time.sleep(0.5)
 
